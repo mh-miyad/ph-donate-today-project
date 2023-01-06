@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lobster&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.5) ),url("../images/Rectangle\ 237.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 560px;
+}
+
+.font-65{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-site{
+    width: 70%;
+    margin-left: 200px;
+    padding-top: 100px;
+}
+.text-site p{
+    width: 70%;
+    margin-left: 150px;
+    font-size: 20px;
+    padding: 20px;
+}
+.btn{
+    padding: 14px 20px;
+    border: none;
+    background-color: rgb(243, 76, 103);
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 12px 12px 30px  pink;
+    transition: all  ease-in-out 0.2s;
+    -webkit-transition: all  ease-in-out 0.2s;
+    -moz-transition: all  ease-in-out 0.2s;
+    -ms-transition: all  ease-in-out 0.2s;
+    -o-transition: all  ease-in-out 0.2s;
+}
+
+.btn:hover{
+    padding: 11px 19px;
+}
+
+
+.donate-part {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    padding: 100px 143px;
+    margin-top: 12px;
+  }
+
+  .donate-tittle{
+    color: rgb(22, 20, 20);
+    font-size: 45px;
+    margin: 20px;
+  }
+  .donate-des{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    color: gray;
+    line-height: 40px;
+  }
+  .container-tk{
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .donate-amount{
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 48px;
+    background-color: rgb(231, 227, 227);
+    color: gray;
+    font-size: 30px;
+    margin: 20px;
+    border-radius:5px ;
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+  .donate-amount.active,
+  .donate-amount:hover{
+background-color: rgb(250, 166, 180);
+border: 3px solid rgb(248, 85, 112);
+color: rgb(248, 85, 112);;
+  }
+.donate-plan-card{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  padding: 50px 143px;
+  margin-bottom: 10px;
+
+}
+  .donate-link{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 30px 0;
+    cursor: pointer;
+  }
+  hr{
+    color: green;
+    padding: 2px;
+    margin: 20px;
+  }
+.donate-card{
+    display: flex;
+}
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    height: 300px;
+    margin-right: 30px;
+  }
+  .card-color-2{
+    background-color: #fdd2cc6b;
+  }
+  .card-color-1{
+    background-color: #cce7fd6b;
+  }
+  .card-color-3{
+    background-color: #f8f0c16b;
+  }
+  
+  .card-img-top {
+    width: 13%;
+    height: auto;
+    margin-right: 180px;
+    margin-bottom: 0;
+  }
+  
+  .card-body {
+    padding: 20px 40px;
+    text-align: justify;
+    
+  }
+  
+  .card-title {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight:600;
+    color: gray;
+   
+    
+  }
+  
+  .card-text {
+    font-size: 16px;
+  margin-top: 20px;
+   
+  }
+  
+  .font-40{
+    font-size: 45px ;
+    margin: 10px;
+    color: rgb(34, 33, 33);
+  }
+  .font-20{
+    font-size: 18px ;
+    margin: 40px 0;
+    color: gray;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+  .help-blog{
+    display: block;
+    margin: 0 auto;
+    text-align: start;
+    width: 90%;
+    padding: 100px 143px;
+    margin-top: 12px;
+  }
+  .container-help{
+    margin-top: 100px;
+  }
+.help-tittle{
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.help-description{
+  color: gray;
+  padding: 30px 10px;
+  font-size: 18px;
+  
+}
+
+.left-side{
+  padding-right: 20px;
+  
+}
+.right-side{
+  padding-left: 20px;
+}
+
+
+.final-part{
+  display: block;
+  margin: 0 auto;
+  text-align: start;
+  width: 90%;
+  padding: 100px 143px;
+  margin-top: 12px;
+text-align: center;
+}
+
+.btn-large{
+  padding: 18px 70px;
+  
+
+}
+.final-tittle{
+  font-size: 45px;
+  margin: 30px;
+  color: rgb(66, 64, 64);
+}
+.final-des{
+  font-size: 18px;
+  margin: 40px;
+  color: rgb(66, 64, 64);
+}
+.form{ background-color: bisque; 
+  padding: 50px; 
+  border-radius:10px ;
+   -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+     -ms-border-radius:10px ;
+      -o-border-radius:10px ;
+
+}
+
+#email{
+  padding: 15px 60px;
+  border: 1px solid rgb(228, 68, 94);
+  margin: 40px -3px;
+  border-radius:4px;
+  background-color: rgb(255, 237, 237);
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+  font-size: 17px;
+  
+}
+
+footer{
+  background-color:#0B0D17;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+footer >h2{
+  font-family: 'Lobster', cursive;
+  color: #FF5959;
+  font-size: 50px;
+  padding-top: 70px;
+}
+footer >p{
+  
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+ 
+}
